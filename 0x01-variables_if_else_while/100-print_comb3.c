@@ -14,23 +14,27 @@
  */
 int main(void)
 {
-	int digitOne;
-	int digitTwo;
 
-	for (digitOne = 0; digitOne < 10; digitOne++)
+	int digit1, digit2;
+
+	for (digit1 = 0; digit1 <= 8; digit1++)
 	{
-		for (digitTwo = 0; digitTwo < 10; digitTwo++)
+		for (digit2 = 1; digit2 <= 9; digit2++)
 		{
-			putchar((digitTwo % 10) + '0');
-			putchar((digitOne % 10) + '0');
-
-			if (digitOne == 9 && digitTwo == 9)
+			if (digit1 == digit2)
+			{
 				continue;
-
+			} else
+			{
+				putchar((digit1 % 10) + '0');
+                                putchar((digit2 % 10) + '0');
+			}
 			putchar(',');
 			putchar(' ');
 		}
 	}
+
 	putchar('\n');
+
 	return (0);
 }
