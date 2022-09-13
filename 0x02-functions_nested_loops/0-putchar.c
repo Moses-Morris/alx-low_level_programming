@@ -1,7 +1,7 @@
 #include <time.h>
 #include <stdio.h>
 #include "main.h"
-
+#include "_putchar.c"
 /* Authored By:  Moses Morris Njuguna */
 /**
  * main - Entry point
@@ -16,11 +16,6 @@
  * 9 - is the number of characters to be written as bytes of the array.
  */
 
-/**
- * main - Prints Putchar
- *
- * Return: Always 0 (Success)
- */
 int main(void)
 {
 	_putchar('_');
