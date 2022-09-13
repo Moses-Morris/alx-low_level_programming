@@ -7,7 +7,6 @@
 
 /**
  * _islower - Entry point.
- * @c: The character to be checked.
  * _islower - Check for lowercase.
  * _putchar - writes the character c to stdout.
  * Description: '_islower'

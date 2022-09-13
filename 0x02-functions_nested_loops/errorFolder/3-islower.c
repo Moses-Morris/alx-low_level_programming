@@ -7,7 +7,6 @@
 
 /**
  * _islower - Entry point.
- * @c: The character to be checked.
  * _islower - Check for lowercase.
  * _putchar - writes the character c to stdout.
  * Description: '_islower'
@@ -17,12 +16,18 @@
  */
 int _islower(int c)
 {
-	int c;
-
-	if (c >= 97 && c <= 122)
+	int r = islower(c);
+	if (r == 0)
 	{
-		return (1);
-	}
+		int z = 0;
 
-	return (0);
+		_putchar(z);
+		return (0);
+	} else
+	{
+		int t = 1;
+
+		_putchar(t);
+		return (0);
+	}
 }
