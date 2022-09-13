@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
+#include <ctype.h>
 /*Authored by Moses Morris*/
 
 /*Betty Lint Style*/
