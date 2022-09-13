@@ -1,4 +1,3 @@
-#include <unistd.h>
 /*The header file */
 /*This file will contain all our prototype functions*/
 /*It will be included as a header file*/
