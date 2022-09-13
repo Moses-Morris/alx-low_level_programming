@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <unistd.h>
 /*The header file */
 /*This file will contain all our prototype functions*/
