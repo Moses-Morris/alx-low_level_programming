@@ -11,3 +11,17 @@ void print_alphabet(void)
 	}
 	write(1, "\n", 1);
 }
+
+void print_alphabet_x10(void)
+{
+	int b;
+	for (b = 1; b <= 10; b++)
+	{
+		int a;
+		for (a = 'a'; a <= 'z'; a++)
+		{
+			write(1, &a, 1);
+		}
+		write(1, "\n", 1);
+	}
+}
