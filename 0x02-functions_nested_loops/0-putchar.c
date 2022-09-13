@@ -1,7 +1,6 @@
 #include <time.h>
 #include <stdio.h>
 #include "main.h"
-#include "_putchar.c"
 
 /* Authored By:  Moses Morris Njuguna */
 /**
