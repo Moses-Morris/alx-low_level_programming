@@ -1,9 +1,8 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
 #include "main.h"
-#include "_putchar.c"
 
 /* Authored By:  Moses Morris Njuguna */
 /**
@@ -19,21 +18,8 @@
  * 9 - is the number of characters to be written as bytes of the array.
  */
 
-/**
- * main - Prints Putchar
- *
- * Return: Always 0 (Success)
- */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	write(1, "_putchar\n", 9);
 	return (0);
 }
