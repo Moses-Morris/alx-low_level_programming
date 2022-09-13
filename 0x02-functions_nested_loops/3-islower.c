@@ -30,4 +30,5 @@ int _islower(int c)
 
 		_putchar(z);
 	}
+	return (0);
 }
