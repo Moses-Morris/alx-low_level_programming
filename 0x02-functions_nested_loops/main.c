@@ -8,6 +8,7 @@
 #include "5-sign.c"
 #include "6-abs.c"
 #include "7-print_last_digit.c"
+#include "8-24_hours.c"
 
 /**
  * main - check the code
@@ -82,6 +83,10 @@ int main(void)
     r = print_last_digit(-1024);
     _putchar('0' + r);
     _putchar('\n');
+
+
+    /*Time in C hours and minutes*/
+    jack_bauer();
 
 
     return (0);
