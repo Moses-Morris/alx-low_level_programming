@@ -10,7 +10,7 @@
 #include "7-print_last_digit.c"
 #include "8-24_hours.c"
 #include "9-times_table.c"
-
+#include "10-add.c"
 
 /**
  * main - check the code
@@ -93,6 +93,12 @@ int main(void)
 
     /* function that prints the 9 times table, starting with 0.*/
     times_table();
+
+    /*A function that adds two numbers*/
+    int n;
+
+    n = add(89, 9);
+    printf("%d\n", n);
 
 
     return (0);
