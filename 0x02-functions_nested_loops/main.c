@@ -11,6 +11,7 @@
 #include "8-24_hours.c"
 #include "9-times_table.c"
 #include "10-add.c"
+#include "11-print_to_98.c"
 
 /**
  * main - check the code
@@ -99,6 +100,14 @@ int main(void)
 
     n = add(89, 9);
     printf("%d\n", n);
+
+
+    /*a function that prints all natural numbers from n to 98, followed by a new line.*/
+    print_to_98(0);
+    print_to_98(98);
+    print_to_98(111);
+    print_to_98(81);
+    print_to_98(-10);
 
 
     return (0);
