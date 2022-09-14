@@ -5,6 +5,7 @@
 #include "3-islower.c"
 #include "_putchar.c"
 #include "4-isalpha.c"
+#include "5-sign.c"
 /**
  * main - check the code
  *
@@ -25,7 +26,7 @@ int main(void)
     _putchar('\n');
     
 
-    /*Ia Alphabet*/
+    /*Is an Alphabet*/
     /*int r;*/
 
     r = _isalpha('H');
@@ -37,6 +38,30 @@ int main(void)
     r = _isalpha(';');
     _putchar(r + '0');
     _putchar('\n');
+
+    /*Print sign if positive or negative number*/
+    r = print_sign(98);
+    _putchar(',');
+    _putchar(' ');
+    _putchar(r + '0');
+    _putchar('\n');
+    r = print_sign(0);
+    _putchar(',');
+    _putchar(' ');
+    _putchar(r + '0');
+    _putchar('\n');
+    r = print_sign(0xff);
+    _putchar(',');
+    _putchar(' ');
+    _putchar(r + '0');
+    _putchar('\n');
+    r = print_sign(-1);
+    _putchar(',');
+    _putchar(' ');
+    _putchar(r + '0');
+    _putchar('\n');
+
+
 
     return (0);
 }
