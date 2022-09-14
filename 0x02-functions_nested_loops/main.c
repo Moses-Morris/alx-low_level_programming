@@ -7,6 +7,7 @@
 #include "4-isalpha.c"
 #include "5-sign.c"
 #include "6-abs.c"
+#include "7-print_last_digit.c"
 
 /**
  * main - check the code
@@ -74,6 +75,13 @@ int main(void)
     r = _abs(-98);
     printf("%d\n", r);
 
+
+    /*Print last digit*/
+    print_last_digit(98);
+    print_last_digit(0);
+    r = print_last_digit(-1024);
+    _putchar('0' + r);
+    _putchar('\n');
 
 
     return (0);
