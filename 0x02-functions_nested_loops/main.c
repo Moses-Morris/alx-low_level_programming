@@ -6,6 +6,8 @@
 #include "_putchar.c"
 #include "4-isalpha.c"
 #include "5-sign.c"
+#include "6-abs.c"
+
 /**
  * main - check the code
  *
@@ -60,6 +62,17 @@ int main(void)
     _putchar(' ');
     _putchar(r + '0');
     _putchar('\n');
+
+
+    /*Prints absolute values*/
+    r = _abs(-1);
+    printf("%d\n", r);
+    r = _abs(0);
+    printf("%d\n", r);
+    r = _abs(1);
+    printf("%d\n", r);
+    r = _abs(-98);
+    printf("%d\n", r);
 
 
 
