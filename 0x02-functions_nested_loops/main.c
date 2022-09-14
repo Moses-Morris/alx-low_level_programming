@@ -9,6 +9,8 @@
 #include "6-abs.c"
 #include "7-print_last_digit.c"
 #include "8-24_hours.c"
+#include "9-times_table.c"
+
 
 /**
  * main - check the code
@@ -87,6 +89,10 @@ int main(void)
 
     /*Time in C hours and minutes*/
     jack_bauer();
+
+
+    /* function that prints the 9 times table, starting with 0.*/
+    times_table();
 
 
     return (0);
