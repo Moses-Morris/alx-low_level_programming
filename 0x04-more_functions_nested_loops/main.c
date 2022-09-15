@@ -13,7 +13,7 @@
 #include "7-print_diagonal.c"
 #include "8-print_square.c"
 #include "9-fizz_buzz.c"
-
+#include "10-print_triangle.c"
 
 /*This is the testing file for our functions.*/
 /**
@@ -83,6 +83,15 @@ int main(void)
 
 
     /*The fizbuzz origin*/
+
+
+
+    /*The triangle*/
+    print_triangle(2);
+    print_triangle(10);
+    print_triangle(1);
+    print_triangle(0);
+    printf("\n");
 
 
 
