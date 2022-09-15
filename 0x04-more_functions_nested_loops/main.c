@@ -10,6 +10,7 @@
 #include "4-print_most_numbers.c"
 #include "5-more_numbers.c"
 #include "6-print_line.c"
+#include "7-print_diagonal.c"
 
 /*This is the testing file for our functions.*/
 /**
@@ -61,6 +62,15 @@ int main(void)
     print_line(10);
     print_line(-4);
     printf("\n");
+
+
+    /*Prints up a diagonal line*/
+    print_diagonal(0);
+    print_diagonal(2);
+    print_diagonal(10);
+    print_diagonal(-4);
+    printf("\n");
+
 
     return (0);
 }
