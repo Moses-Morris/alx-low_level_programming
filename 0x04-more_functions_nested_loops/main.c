@@ -8,6 +8,7 @@
 #include "3-print_numbers.c"
 #include "_putchar.c"
 #include "4-print_most_numbers.c"
+#include "5-more_numbers.c"
 
 /*This is the testing file for our functions.*/
 /**
@@ -45,5 +46,12 @@ int main(void)
 
     /*Print most numbers*/
     print_most_numbers();
+    printf("\n");
+
+
+    /*Print ten times the number*/
+    more_numbers();
+    printf("\n");
+
     return (0);
 }
