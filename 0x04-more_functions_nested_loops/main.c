@@ -94,6 +94,9 @@ int main(void)
     printf("\n");
 
 
+    /*Prime factors*/
+
+
 
     return (0);
 }
