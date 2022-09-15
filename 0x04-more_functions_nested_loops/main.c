@@ -7,7 +7,7 @@
 #include "2-mul.c"
 #include "3-print_numbers.c"
 #include "_putchar.c"
-
+#include "4-print_most_numbers.c"
 
 /*This is the testing file for our functions.*/
 /**
@@ -41,6 +41,9 @@ int main(void)
     print_numbers();
     printf("\n");
 
+    
 
+    /*Print most numbers*/
+    print_most_numbers();
     return (0);
 }
