@@ -12,6 +12,8 @@
 #include "6-print_line.c"
 #include "7-print_diagonal.c"
 #include "8-print_square.c"
+#include "9-fizz_buzz.c"
+
 
 /*This is the testing file for our functions.*/
 /**
@@ -78,6 +80,10 @@ int main(void)
     print_square(10);
     print_square(0);
     printf("\n");
+
+
+    /*The fizbuzz origin*/
+
 
 
     return (0);
