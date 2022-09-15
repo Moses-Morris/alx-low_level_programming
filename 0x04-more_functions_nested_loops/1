@@ -6,8 +6,6 @@
 #include "1-isdigit.c"
 #include "2-mul.c"
 #include "3-print_numbers.c"
-#include "_putchar.c"
-
 
 /*This is the testing file for our functions.*/
 /**
