@@ -9,6 +9,7 @@
 #include "_putchar.c"
 #include "4-print_most_numbers.c"
 #include "5-more_numbers.c"
+#include "6-print_line.c"
 
 /*This is the testing file for our functions.*/
 /**
@@ -51,6 +52,14 @@ int main(void)
 
     /*Print ten times the number*/
     more_numbers();
+    printf("\n");
+
+
+    /*Straight Line*/
+    print_line(0);
+    print_line(2);
+    print_line(10);
+    print_line(-4);
     printf("\n");
 
     return (0);
