@@ -4,7 +4,7 @@
 /*Here we include our   - C -   files*/
 #include "0-isupper.c"
 #include "1-isdigit.c"
-
+#include "2-mul.c"
 
 /*This is the testing file for our functions.*/
 /**
@@ -28,6 +28,10 @@ int main(void)
     c = 'a';
     printf("%c: %d\n", c, _isdigit(c));
 
+
+    /*Collaboration is multiplication*/
+    printf("%d\n", mul(98, 1024));
+    printf("%d\n", mul(-402, 4096));
 
 
     return (0);
