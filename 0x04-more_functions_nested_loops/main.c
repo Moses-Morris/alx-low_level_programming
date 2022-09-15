@@ -11,6 +11,7 @@
 #include "5-more_numbers.c"
 #include "6-print_line.c"
 #include "7-print_diagonal.c"
+#include "8-print_square.c"
 
 /*This is the testing file for our functions.*/
 /**
@@ -69,6 +70,13 @@ int main(void)
     print_diagonal(2);
     print_diagonal(10);
     print_diagonal(-4);
+    printf("\n");
+
+
+    /*Print A square*/
+    print_square(2);
+    print_square(10);
+    print_square(0);
     printf("\n");
 
 
