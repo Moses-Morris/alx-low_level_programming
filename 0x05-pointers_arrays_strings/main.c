@@ -2,7 +2,7 @@
 #include "0-reset_to_98.c"
 #include "_putchar.c"
 #include "1-swap.c"
-
+#include "2-strlen.c"
 /**
  * main - check the code
  *
@@ -29,8 +29,17 @@ int main(void)
     swap_int(&a, &b);
     printf("a=%d, b=%d\n", a, b);
     
+    printf("\n");
+
+    /*A function that returns the length of a string.*/
+    char *str;
+    int len;
+
+    str = "My first strlen!";
+    len = _strlen(str);
+    printf("%d\n", len);
     
-    
+    printf("\n");
     
     
     
