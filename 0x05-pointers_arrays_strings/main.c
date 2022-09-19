@@ -3,6 +3,9 @@
 #include "_putchar.c"
 #include "1-swap.c"
 #include "2-strlen.c"
+#include "3-puts.c"
+
+
 /**
  * main - check the code
  *
@@ -41,6 +44,23 @@ int main(void)
     
     printf("\n");
     
+
+
+    /*3 . a function that prints a string, followed by a new line, to stdout */
+    //char *str;
+    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+    _puts(str);
+
+
+    printf("\n");
+
+    /*A function that prints a string, in reverse, followed by a new line.*/
+    //char *str;
+
+    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+    //print_rev(str);
+
+    printf("\n");
     
     
     
