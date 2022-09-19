@@ -4,7 +4,7 @@
 #include "1-swap.c"
 #include "2-strlen.c"
 #include "3-puts.c"
-
+#include "5-rev_string.c"
 
 /**
  * main - check the code
@@ -63,7 +63,13 @@ int main(void)
     printf("\n");
     
     
-    
+    /*Number 5*/
+    char s[10] = "My School";
+
+    printf("%s\n", s);
+    rev_string(s);
+    printf("%s\n", s);
+   
     
     
     return (0);
