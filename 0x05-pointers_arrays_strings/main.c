@@ -1,5 +1,6 @@
 #include "main.h"
 #include "0-reset_to_98.c"
+#include "_putchar.c"
 
 /**
  * main - check the code
