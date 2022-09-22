@@ -14,4 +14,16 @@
  * Return: 0
  */
 char *_strcat(char *dest, char *src)
+{
+	int a, b;
 
+	dest[a];
+	src[b];
+	a = strlen(dest);
+	for (b = 0; src[b] != '\0'; a++, b++)
+	{
+		dest[a] = src[b];
+	}
+	dest[a] = '\0';
+	return (dest);
+}
