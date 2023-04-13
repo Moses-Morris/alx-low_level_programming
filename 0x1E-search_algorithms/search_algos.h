@@ -4,18 +4,8 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "listint/create_list.c"
-#include "listint/free_list.c"
-#include "listint/print_list.c"
-
-
 /* helpers */
 void print_array(int *array, size_t inc, size_t size);
-
-/*Functions from listint*/
-listint_t *create_list(int *array, size_t size);
-void free_list(listint_t *list);
-void print_list(const listint_t *list);
 
 /**
  * struct listint_s - singly linked list
